@@ -16,6 +16,36 @@ Para escribir el código se tendrá que utilizar los 2 archivos
 adjuntos llamados "Ejercicio1.php" y "Ejercicio1.css"-->
 
 
+    <div class="top">top</div>
+    <div class="mid">
+        
+    <?php
+
+    for ($i = 1; $i <= 30;$i++){
+
+        if ($i % 2 == 0){
+
+            echo "<p class=\"par\"> Este parrafo es el numero $i </p>";
+        }else{
+            echo "<p class=\"impar\"> Este parrafo es el numero $i </p>";
+        }
+
+        
+
+    }
+    
+
+    for ($i = 1; $i <= 25;$i++){
+        echo "<img src=\"Ejercicio1.jpg\">";
+    }
+
+    ?>
+
+
+    </div>
+    <div class="bot">bot</div>
+
+
 
 </body>
 </html>

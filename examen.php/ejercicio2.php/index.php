@@ -20,17 +20,13 @@ Con la segunda y tercera variable tenéis que compararlas y
 con un h3 tenéis que decir en una etiqueta h3 en color lila cual 
 de las dos variables es mayor y cual es menor.
 -->
-<form action="pagina2.php" method="get">
-        <label for="a"> Ingrese "a": </label>
-        <input type="number" name="a" id="a">
-        <br><br>
-        <label for="b">Ingrese "b": </label>
-        <input type="number" name="b" id="b">
-        <br><br>
-        <label for="c">Ingrese "c": </label>
-        <input type="number" name="c" id="c">
-        <br><br>
-        <button>Calcular</button>
+<form action="examen2.php" method="get">
+        <p>Pon un numero <input type="number" name="numero1" ></p>
+        <p>Pon un numero <input type="number" name="numero2" ></p>
+        <p>Pon un numero <input type="number" name="numero3" ></p>
+        <input type="submit" value="enviar">
+
     </form>
+
 </body>
 </html>

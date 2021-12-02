@@ -17,18 +17,24 @@ Utilizar la función 2 veces.
 Ejemplo: 
 introduzco un 3 y el texto: "Hola como estas"
 Como resultado me tendría que dar: "HHHooolllaaa   cccooommmooo   eeessstttaaasss"-->   
-<form action="pagina2.php" method="post">
-  <label>Texto</label>
-  <input type="text" name="texto" size="30" maxlength="100">
-<br>
- <label>Número</label> 
- <input type="text" name="numero" size="25" maxlength="100" value="">
-<br>
-<label>Color</label> 
-<input type="text" name="color" size="20" maxlength="60">
-<p>Escribe lo que quieras</p>
-<textarea cols="30" rows="7" name="comentarios"></textarea>
-</form>
+
+
+
+    
+    <form action="examen4.php" method="post">
+        <p>Pon un numero <input type="number" name="numero" ></p>
+        <p>Pon un texto <input type="text" name="texto" ></p>
+        <p>Pon un color <input type="color" name="color" ></p>
+        <p>Pon un color <input type="text" name="colorTexto" ></p>
+        <input type="submit" value="enviar">
+
+    </form>
+
 
 </body>
 </html>
+
+ 
+
+
+

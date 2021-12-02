@@ -19,3 +19,11 @@ div{
     background-color: cornflowerblue;
     line-height: 50px;
 }
+
+.par{
+    color:green;
+}
+
+.impar{
+    color:red;
+}
