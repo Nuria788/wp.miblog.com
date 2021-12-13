@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio1.css">
     <title>Document</title>
 </head>
 <body>
@@ -13,11 +14,11 @@ Escriba 30 párrafos donde diga
 Los párrafos impares debe mostrarlos en color rojo y los pares en color verde.
 Deberá crear 25 imágenes con la imagen adjunta "Ejercicio1.jpg"
 Para escribir el código se tendrá que utilizar los 2 archivos 
-adjuntos llamados "Ejercicio1.php" y "Ejercicio1.css"-->
+adjuntos llamados "ejercicio1.php" y "ejercicio1.css"-->
 
 
     <div class="top">top</div>
-    <div class="mid">
+    <div class="mid"> mid
         
     <?php
 
@@ -36,7 +37,7 @@ adjuntos llamados "Ejercicio1.php" y "Ejercicio1.css"-->
     
 
     for ($i = 1; $i <= 25;$i++){
-        echo "<img src=\"Ejercicio1.jpg\">";
+        echo "<img src=\"imagen.jpg\">";
     }
 
     ?>
