@@ -14,7 +14,9 @@ Escriba 30 párrafos donde diga
 Los párrafos impares debe mostrarlos en color rojo y los pares en color verde.
 Deberá crear 25 imágenes con la imagen adjunta "Ejercicio1.jpg"
 Para escribir el código se tendrá que utilizar los 2 archivos 
-adjuntos llamados "ejercicio1.php" y "ejercicio1.css"-->
+adjuntos llamados "ejercicio1.php" y "ejercicio1.css"
+dddddddd
+-->
 
 
     <div class="top">top</div>
