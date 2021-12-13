@@ -32,19 +32,11 @@ dddddddd
         }else{
             echo "<p class=\"impar\"> Este parrafo es el numero $i </p>";
         }
-
-        
-
     }
-    
-
     for ($i = 1; $i <= 25;$i++){
         echo "<img src=\"imagen.jpg\">";
     }
-
     ?>
-
-
     </div>
     <div class="bot">bot</div>
 
